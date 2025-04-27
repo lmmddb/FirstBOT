@@ -1,4 +1,4 @@
-import configs.DEFAULTConfig as defaultconfig
+import DEFAULTConfig as defaultconfig
 import utils.DiscordUtil as discordUtil
 
 import discord
