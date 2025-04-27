@@ -1,5 +1,10 @@
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__)))
+
 import DEFAULTConfig as defaultconfig
-import utils.DiscordUtil as discordUtil
+from utils import DiscordUtil as discordUtil
 
 import discord
 from discord.ext import commands
