@@ -4,12 +4,12 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 
 import DEFAULTConfig as defaultconfig
-from utils import DiscordUtil as discordUtil
+from src.utils import DiscordUtil as discordUtil
 
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from keep_alive import keep_alive
+from src.keep_alive import keep_alive
 from cogs.GeminiCog import GeminiAgent
 
 load_dotenv()
