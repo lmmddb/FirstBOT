@@ -5,6 +5,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__)))
 
 import DEFAULTConfig as defaultconfig
 import DiscordUtil as discordUtil
+import GeminiCog 
 
 import discord
 from discord.ext import commands
