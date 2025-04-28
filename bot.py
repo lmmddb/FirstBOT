@@ -3,13 +3,13 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 
-import DEFAULTConfig as defaultconfig
-from src.utils import DiscordUtil as discordUtil
+import configs.DEFAULTConfig as defaultconfig
+import DiscordUtil as discordUtil
 
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from src.keep_alive import keep_alive
+from keep_alive import keep_alive
 from cogs.GeminiCog import GeminiAgent
 
 load_dotenv()
@@ -90,4 +90,5 @@ async def help(ctx):
 
 
 keep_alive()
-bot.run(defaultconfig.DISCORD_SDK)
+
+bot.run(os.getenv('DISCORD_SDK'))
