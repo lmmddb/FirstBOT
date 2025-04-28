@@ -37,6 +37,7 @@ FirstBOT est un bot Discord écrit en Python, conçu pour proposer des fonctionn
 - `DEFAULTConfig.py` : Fichier de configuration
 - `keep_alive.py` : Script pour maintenir le bot actif (utile pour l'hébergement sur certaines plateformes)
 - `requirements.txt` : Liste des librairies nécessaires
+- 'geminiCog.py' : Gère les commandes liées à l'IA Gemini
 
 ## Prérequis
 
