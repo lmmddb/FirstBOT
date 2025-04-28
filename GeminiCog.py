@@ -1,5 +1,5 @@
-import configs.DEFAULTConfig as defaultconfig
-from utils import DiscordUtil as discordutil
+import DEFAULTConfig as defaultconfig
+import DiscordUtil as discordutil
 from discord.ext import commands, tasks
 import google.generativeai as genai
 import discord
