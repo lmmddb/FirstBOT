@@ -10,7 +10,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 from keep_alive import keep_alive
-from cogs.GeminiCog import GeminiAgent
+from GeminiCog import GeminiAgent
 
 load_dotenv()
 print("Lancement du bot…")
