@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 
-import configs.DEFAULTConfig as defaultconfig
+import DEFAULTConfig as defaultconfig
 import DiscordUtil as discordUtil
 
 import discord
